@@ -1,45 +1,36 @@
-.background {
-  background-image: linear-gradient(#EFD1D9, #CA6680);
-  height: 100vh;
-  margin: 0
-}
-
 body {
-  font-family: 'Playfair Display', serif;
+  background-color: #F2B7C6;
+  font-family: 'Nunito', sans-serif;
+  color: white
 }
 
 .header {
-  width: 100vw;
-}
-
-.header img {
-  position: relative;
-  width: 100%;
-  max-height: 50vh;
-  border-bottom: 5px solid white;
-}
-
-.headerText {
-  position: absolute;
-  top: 8vh;
-  width: 20%;
-  min-width: 200px;
-  left: 0;
-  right: 0;
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  min-width: 300px;
+  padding: 10px;
+  border: 3px solid white;
+  outline: 3px solid #DD9296;
   margin-left: auto;
   margin-right: auto;
-  background-color: #EDC79B;
-  border: 3px solid #713E5A;
+  background-color: #A43D70
 }
 
-.headerText h1 {
-  text-align: center;
-  color: #713E5A;
+.header h1 {
+  font-family: 'Shippori Mincho B1', serif;
+  margin: 0px
 }
 
-.headerText h3 {
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  color: #713E5A;
+.logoContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100px
+}
+
+.logoContainer img {
+  width: 20px;
+  height: 20px
 }
