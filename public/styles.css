@@ -59,8 +59,19 @@ h1 {
   box-shadow: 0px 3px 5px #c4b1b1;
 }
 
-.about p, h2 {
+p {
   text-align: justify
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-top: 20px;
+  width: 100vw;
+  padding: 5px 0px 10px;
+  background-color: #fc9d9d;
+  border-top: 3px solid #ffcac2;
+  border-bottom: 3px solid #ffcac2;
+  outline: 3px solid white
 }
 
 .projects {
@@ -77,21 +88,26 @@ h1 {
 }
 
 .projectRow .section {
-  width: 90%
-}
-
-.projectRow img {
-  height: auto;
-  width: 100%;
-  background-color: white;
-  border: 10px solid #ffe6e6;
+  width: 80%
 }
 
 .projectImage {
-  padding: 50px
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  width: 900px;
+  height: auto;
+  background-color: #ffe6e6;
 }
 
-@media only screen and (max-width: 600px) {
+.projectRow img {
+  padding: 20px;
+  height: auto;
+  width: 90%;
+}
+
+@media only screen and (max-width: 800px) {
   .intro {
     flex-direction: column;
   }
@@ -101,5 +117,8 @@ h1 {
   }
   .projectRow {
     flex-direction: column;
+  }
+  .projectImage {
+    width: 80%
   }
 }

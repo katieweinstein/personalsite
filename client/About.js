@@ -19,6 +19,7 @@ const About = () => {
           problem-solving. In February, I graduted from the Grace Hopper Program
           at Fullstack Academy, and I'm currently in search of a role as a
           full-time developer in NYC. <br />
+          <br />
           In the meantime, I challenged myself to create this portfolio website
           from scratch without a styling library. Not bad, huh? Feel free to
           scroll through and check out some of the work I've done!
