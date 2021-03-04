@@ -5,14 +5,14 @@ const Projects = () => {
     <div className="container projects">
       <h1 className="section">Projects</h1>
       <section className="projectRow">
-        <iframe
-          src="https://giphy.com/embed/esFMsqzGaZ4mvWm4NB"
-          href="http://your-agenda.herokuapp.com"
-          frameBorder="0"
-          height="200px"
-          width="300px"
-          allowFullScreen
-        />
+        <div className="projectImage">
+          <a href="http://your-agenda.herokuapp.com">
+            <img
+              src="https://media.giphy.com/media/esFMsqzGaZ4mvWm4NB/giphy.gif"
+              alt="A gif of tasks being dragged and dropped on my Agenda website."
+            />
+          </a>
+        </div>
         <div className="container section">
           <h2>Agenda</h2>
           <h3>A minimalistic project board app.</h3>
