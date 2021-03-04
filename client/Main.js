@@ -1,10 +1,16 @@
 import React from 'react';
 import Header from './Header';
 import About from './About';
-import Connect from './Connect';
+import Projects from './Projects';
 
 const Main = () => {
-  return <Header />;
+  return (
+    <div>
+      <Header />
+      <About />
+      <Projects />
+    </div>
+  );
 };
 
 export default Main;

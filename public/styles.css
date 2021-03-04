@@ -1,27 +1,37 @@
 body {
-  background-color: #F2B7C6;
+  background-color: #ffe6e6;
   font-family: 'Nunito', sans-serif;
-  color: white
+  color: white;
+  margin: 0
+}
+
+h1 {
+  font-family: 'Shippori Mincho B1', serif;
+}
+
+/* iframe {
+  width: 100%;
+  height: auto;
+
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-  min-width: 300px;
-  padding: 10px;
-  border: 3px solid white;
-  outline: 3px solid #DD9296;
+  width: 100vw;
+  height: 175px;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 3px solid white;
+  outline: 4px solid #ffcac2;
   margin-left: auto;
   margin-right: auto;
-  background-color: #A43D70
-}
-
-.header h1 {
-  font-family: 'Shippori Mincho B1', serif;
-  margin: 0px
+  background-color: #900c3f;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23bb4c77' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 .logoContainer {
@@ -33,4 +43,51 @@ body {
 .logoContainer img {
   width: 20px;
   height: 20px
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.intro img {
+  height: auto;
+  width: 30%;
+  margin: 3%
+}
+
+.section {
+  flex-direction: column;
+  margin: 3%;
+  padding: 10px 20px;
+  background-color: #fc9d9d;
+  box-shadow: 0px 3px 5px #8a7878;
+}
+
+.about p, h2 {
+  text-align: justify
+}
+
+.projects {
+  flex-direction: column;
+  background-color: #fab7b7;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23fbe3e3' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.projectRow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%
+}
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+  }
+  .intro img {
+    width: 90%;
+    height: auto
+  }
 }

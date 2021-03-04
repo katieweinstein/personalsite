@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Connect = () => {
-  return <h1>Connect</h1>;
+  return (
+    <div className="container connect">
+      <h1>Connect</h1>
+    </div>
+  );
 };
 
 export default Connect;
