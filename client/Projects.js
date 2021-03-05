@@ -55,12 +55,6 @@ const Projects = () => {
         </div>
       </section>
       <section className="projectRow">
-        <a href="http://ontherun.herokuapp.com" className="projectImage">
-          <img
-            src="https://media.giphy.com/media/dkBz9l6vNUPq5JC6bD/giphy.gif"
-            alt="A gif of my On The Run site in action."
-          />
-        </a>
         <div className="container section">
           <h1>On The Run</h1>
           <img
@@ -101,6 +95,12 @@ const Projects = () => {
             </button>
           </div>
         </div>
+        <a href="http://ontherun.herokuapp.com" className="projectImage">
+          <img
+            src="https://media.giphy.com/media/dkBz9l6vNUPq5JC6bD/giphy.gif"
+            alt="A gif of my On The Run site in action."
+          />
+        </a>
       </section>
     </div>
   );

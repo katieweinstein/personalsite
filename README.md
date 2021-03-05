@@ -1,10 +1,20 @@
-Color Palette:
-#713E5A (Dark Byzantium)
-#63A375 (Forest Green Crayola)
-#EDC79B (Gold Crayola)
-#D57A66 (Terra Cotta)
-#CA6680 (Cinnamon Satin)
+# Katie Weinstein's Portfolio Website
 
-Fonts:
-Playfair Display
-Poppins Light
+***This site is still in development mode!***
+
+This is my personal portfolio website, built with NO styling libraries, mostly because I wanted to get more comfortable with the inner workings of CSS.
+
+## Installation
+
+Fork or clone this repo to your local machine.
+
+```
+npm install
+```
+
+
+## Usage
+
+```
+npm run start
+```
