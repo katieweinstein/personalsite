@@ -1,6 +1,10 @@
 {
   "name": "mysite",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.x",
+    "npm": "7.x"
+  },
   "description": "",
   "main": "index.html",
   "scripts": {
