@@ -9,6 +9,34 @@ h1 {
   font-family: 'Shippori Mincho B1', serif;
 }
 
+p {
+  text-align: justify
+}
+
+a {
+  text-decoration: none;
+  color: white
+}
+
+button {
+  width: 150px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 5px;
+  background-color: #900c3f;
+  color: white;
+}
+
+
+button:hover {
+  cursor: pointer;
+  color: #900c3f;
+  background-color: white;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -53,19 +81,15 @@ h1 {
 
 .section {
   flex-direction: column;
-  margin: 3%;
+  margin: 30px;
   padding: 10px 20px;
   background-color: #fc9d9d;
   box-shadow: 0px 3px 5px #c4b1b1;
 }
 
-p {
-  text-align: justify
-}
-
 .sectionTitle {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
   width: 100vw;
   padding: 5px 0px 10px;
   background-color: #fc9d9d;
@@ -101,10 +125,16 @@ p {
   background-color: #ffe6e6;
 }
 
-.projectRow img {
+.projectImage img {
   padding: 20px;
   height: auto;
   width: 90%;
+}
+
+.buttons {
+  width: 80%;
+  display: flex;
+  justify-content: space-around
 }
 
 @media only screen and (max-width: 800px) {
