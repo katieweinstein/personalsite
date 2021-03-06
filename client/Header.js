@@ -1,6 +1,11 @@
 import React from 'react';
 import anime from 'animejs/lib/anime.es.js';
 
+// Logos
+import linkedin from './images/linkedin.png';
+import github from './images/github.png';
+import email from './images/email.png';
+
 function expand(type) {
   type = '.' + type;
   anime({
@@ -30,7 +35,7 @@ class Header extends React.Component {
         <div className="logoContainer">
           <a href="https://www.linkedin.com/in/katie-weinstein/">
             <img
-              src="linkedin.png"
+              src={linkedin}
               className="linkedin"
               onMouseOver={() => expand('linkedin')}
               onMouseOut={() => shrink('linkedin')}
@@ -39,7 +44,7 @@ class Header extends React.Component {
           </a>
           <a href="https://github.com/katieweinstein">
             <img
-              src="github.png"
+              src={github}
               className="github"
               onMouseOver={() => expand('github')}
               onMouseOut={() => shrink('github')}
@@ -48,7 +53,7 @@ class Header extends React.Component {
           </a>
           <a href="mailto:katie.weinstein3@gmail.com">
             <img
-              src="email.png"
+              src={email}
               className="email"
               onMouseOver={() => expand('email')}
               onMouseOut={() => shrink('email')}

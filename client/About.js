@@ -1,12 +1,16 @@
 import React from 'react';
 
+// Images
+import sunflower from './images/sunflower1.png';
+import skyline from './images/skyline.png';
+
 const About = () => {
   return (
     <div className="intro">
-      <img src="sunflower1.png" />
+      <img src={sunflower} />
       <section className="container section">
         <img
-          src="skyline.png"
+          src={skyline}
           alt="A line drawing of a city skyline in white."
           style={{ width: '100%' }}
         />

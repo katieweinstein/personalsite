@@ -1,4 +1,6 @@
 import React from 'react';
+import writing from './images/writing.png';
+import sneaker from './images/sneaker.png';
 
 const Projects = () => {
   return (
@@ -14,7 +16,7 @@ const Projects = () => {
         <div className="container section">
           <h1>Agenda</h1>
           <img
-            src="writing.png"
+            src={writing}
             alt="A line drawing of someone writing on a piece of paper in white."
             style={{ width: '50%' }}
           />
@@ -58,7 +60,7 @@ const Projects = () => {
         <div className="container section">
           <h1>On The Run</h1>
           <img
-            src="sneaker.png"
+            src={sneaker}
             alt="A line drawing of a sneaker in white."
             style={{ width: '20%' }}
           />

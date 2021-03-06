@@ -16,5 +16,5 @@ npm install
 ## Usage
 
 ```
-npm run start
+npm run start-dev
 ```
