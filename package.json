@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel client -d lib",
-    "start": "webpack -p",
+    "start": "webpack -p --config ./webpack.prod.config.js --progress",
     "start-dev": "webpack serve"
   },
   "author": "",
