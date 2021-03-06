@@ -10,6 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel client -d lib",
+    "heroku-prebuild": "npm install --dev",
     "start": "webpack -p --config ./webpack.prod.config.js --progress",
     "start-dev": "webpack serve"
   },
