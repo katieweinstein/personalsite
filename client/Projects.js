@@ -7,7 +7,7 @@ const Projects = () => {
     <div className="container projects">
       <h1 className="sectionTitle">Projects</h1>
       <section className="projectRow">
-        <div className="container section">
+        <div className="container block">
           <h1>Agenda</h1>
           <img
             src={writing}
@@ -49,15 +49,23 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <a href="http://your-agenda.herokuapp.com" className="projectImage">
-          <img
-            src="https://media.giphy.com/media/esFMsqzGaZ4mvWm4NB/giphy.gif"
-            alt="A gif of tasks being dragged and dropped on my Agenda website."
-          />
-        </a>
+        <figure>
+          <a href="http://your-agenda.herokuapp.com" className="projectImage">
+            <img
+              src="https://media.giphy.com/media/esFMsqzGaZ4mvWm4NB/giphy.gif"
+              alt="A gif of tasks being dragged and dropped on my Agenda website."
+            />
+          </a>
+          <button
+            type="button"
+            onClick={() => (location.href = 'http://your-agenda.herokuapp.com')}
+          >
+            Visit Agenda
+          </button>
+        </figure>
       </section>
       <section className="projectRow">
-        <div className="container section">
+        <div className="container block">
           <h1>On The Run</h1>
           <img
             src={sneaker}
@@ -97,12 +105,20 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <a href="http://ontherun.herokuapp.com" className="projectImage">
-          <img
-            src="https://media.giphy.com/media/dkBz9l6vNUPq5JC6bD/giphy.gif"
-            alt="A gif of my On The Run site in action."
-          />
-        </a>
+        <figure>
+          <a href="http://ontherun.herokuapp.com" className="projectImage">
+            <img
+              src="https://media.giphy.com/media/dkBz9l6vNUPq5JC6bD/giphy.gif"
+              alt="A gif of my On The Run site in action."
+            />
+          </a>
+          <button
+            type="button"
+            onClick={() => (location.href = 'http://ontherun.herokuapp.com')}
+          >
+            Visit On The Run
+          </button>
+        </figure>
       </section>
     </div>
   );

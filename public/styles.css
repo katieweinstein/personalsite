@@ -18,6 +18,15 @@ a {
   color: white
 }
 
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  width: 900px;
+}
+
 button {
   width: 150px;
   font-weight: bold;
@@ -70,21 +79,24 @@ button:hover {
 .intro {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .intro img {
   height: auto;
   width: 30%;
-  margin: 3%
+  margin: 3%;
+  border-radius: 10px;
+  border: 3px solid #fc9d9d
 }
 
-.section {
+.block {
   flex-direction: column;
   margin: 30px;
   padding: 10px 20px;
   background-color: #fc9d9d;
   box-shadow: 0px 3px 5px #c4b1b1;
+  border-radius: 10px;
 }
 
 .sectionTitle {
@@ -111,7 +123,7 @@ button:hover {
   width: 100%
 }
 
-.projectRow .section {
+.projectRow .block {
   width: 80%
 }
 
@@ -119,16 +131,15 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5%;
-  width: 900px;
   height: auto;
-  background-color: #ffe6e6;
+  background-color: white;
+  border: 3px solid #fc9d9d;
+  outline: 3px solid #ffe6e6;
 }
 
 .projectImage img {
-  padding: 20px;
   height: auto;
-  width: 90%;
+  width: 100%;
 }
 
 .buttons {
