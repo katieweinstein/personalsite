@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './client/app.js',
@@ -37,5 +38,13 @@ module.exports = {
     publicPath: 'http://localhost:3000/dist/',
     hotOnly: true,
   },
-  plugins: [new webpack.HotModuleReplacementPlugin()],
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new HtmlWebpackPlugin({
+      // injects bundle.js to our new index.html
+      inject: true,
+      // copies the content of the existing index.html to the new /build index.html
+      template: path.resolve('./index.html'),
+    }),
+  ],
 };
