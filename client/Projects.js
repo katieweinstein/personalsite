@@ -7,12 +7,6 @@ const Projects = () => {
     <div className="container projects">
       <h1 className="sectionTitle">Projects</h1>
       <section className="projectRow">
-        <a href="http://your-agenda.herokuapp.com" className="projectImage">
-          <img
-            src="https://media.giphy.com/media/esFMsqzGaZ4mvWm4NB/giphy.gif"
-            alt="A gif of tasks being dragged and dropped on my Agenda website."
-          />
-        </a>
         <div className="container section">
           <h1>Agenda</h1>
           <img
@@ -55,6 +49,12 @@ const Projects = () => {
             </button>
           </div>
         </div>
+        <a href="http://your-agenda.herokuapp.com" className="projectImage">
+          <img
+            src="https://media.giphy.com/media/esFMsqzGaZ4mvWm4NB/giphy.gif"
+            alt="A gif of tasks being dragged and dropped on my Agenda website."
+          />
+        </a>
       </section>
       <section className="projectRow">
         <div className="container section">
