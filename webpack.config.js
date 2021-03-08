@@ -29,7 +29,7 @@ module.exports = {
   },
   resolve: { extensions: ['*', '.js', '.jsx'] },
   output: {
-    path: path.resolve(__dirname, 'public/'),
+    path: path.resolve(__dirname, './build'),
     filename: 'bundle.js',
   },
   devServer: {
