@@ -25,6 +25,9 @@ figure {
   align-items: center;
   margin: 5%;
   width: 900px;
+  background-color: #ffe6e6;
+  border-radius: 10px;
+  padding: 20px 10px 10px 10px;
 }
 
 button {
@@ -134,7 +137,6 @@ button:hover {
   height: auto;
   background-color: white;
   border: 3px solid #fc9d9d;
-  outline: 3px solid #ffe6e6;
 }
 
 .projectImage img {
@@ -167,8 +169,9 @@ button:hover {
   }
   .projectRow {
     flex-direction: column;
+    padding-bottom: 20px
   }
-  .projectImage {
+  figure {
     width: 80%
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import writing from './images/writing.png';
 import sneaker from './images/sneaker.png';
+import candles from './images/candles.png';
 
 const Projects = () => {
   return (
@@ -21,8 +22,9 @@ const Projects = () => {
             </i>
           </h3>
           <p>
-            My team and I developed this project over the course of 2 weeks. We
-            included features like drag and drop, real-time project board
+            Developed this project over a 2-week sprint, my teammates and I
+            created a fully functional project management board app for groups.
+            We included features like drag and drop, real-time project board
             updates, and optional site-wide color themes.
             <br />
             <br />I implemented the drag and drop feature, contributed to a
@@ -117,6 +119,59 @@ const Projects = () => {
             onClick={() => (location.href = 'http://ontherun.herokuapp.com')}
           >
             Visit On The Run
+          </button>
+        </figure>
+      </section>
+      <section className="projectRow">
+        <div className="container block">
+          <h1>Tranquility</h1>
+          <img
+            src={candles}
+            alt="A line drawing of two lit candles in white."
+            style={{ width: '30%' }}
+          />
+          <h3>
+            <i>A mock e-commerce site to browse a selection of candles.</i>
+          </h3>
+          <p>
+            This project was developed with two other teammates in less than a
+            week. We focused on creating carts for both logged-in and guest
+            users, and practiced with large amounts of dummy data to simulate a
+            real-world e-commerce site with hundreds of products.
+            <br />
+            <br />I handled front-end component organization and styling,
+            contributed to the structure of the database, and created the login
+            and signup forms.
+          </p>
+          <div className="buttons">
+            <button
+              type="button"
+              onClick={() =>
+                (location.href =
+                  'https://github.com/Mighty-mighty-mangoes/Tranquility')
+              }
+            >
+              GitHub
+            </button>
+          </div>
+        </div>
+        <figure>
+          <a
+            href="http://tranquility-candles.herokuapp.com"
+            className="projectImage"
+          >
+            <img
+              src="https://media.giphy.com/media/lVnhtZ5fxDkewKdG4l/giphy.gif"
+              alt="A gif of a candle being added to a cart on Tranquility."
+            />
+          </a>
+          <button
+            type="button"
+            onClick={() =>
+              (location.href = 'http://tranquility-candles.herokuapp.com')
+            }
+          >
+            Visit Tranquility
           </button>
         </figure>
       </section>
