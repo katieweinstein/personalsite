@@ -137,6 +137,15 @@ button:hover {
   justify-content: space-around
 }
 
+@media only screen and (max-width: 1160px) {
+  .buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* For small screens and phone screens */
 @media only screen and (max-width: 800px) {
   .intro {
     flex-direction: column;
