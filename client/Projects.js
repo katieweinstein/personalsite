@@ -22,9 +22,9 @@ const Projects = () => {
             </i>
           </h3>
           <p>
-            Developed this project over a 2-week sprint, my teammates and I
-            created a fully functional project management board app for groups.
-            We included features like drag and drop, real-time project board
+            Developed over a 2-week sprint in a team of four, this project is
+            fully functional project management board app for groups. We
+            included features like drag and drop, real-time project board
             updates, and optional site-wide color themes.
             <br />
             <br />I implemented the drag and drop feature, contributed to a

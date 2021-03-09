@@ -130,6 +130,10 @@ button:hover {
   width: 80%
 }
 
+.projectRow h3 {
+  text-align: center;
+}
+
 .projectImage {
   display: flex;
   justify-content: center;
