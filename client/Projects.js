@@ -104,7 +104,7 @@ const Projects = () => {
               GitHub
             </button>
             <a href="KatieRunning.csv" download>
-              <button type="button">Download My Data</button>
+              <button type="button">⤓ Download My Data</button>
             </a>
             <button
               type="button"

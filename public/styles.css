@@ -177,7 +177,7 @@ button:hover {
   .profilePic {
     width: 85%;
     height: auto;
-    padding-top: 20px
+    margin-top: 40px
   }
   .projectRow {
     flex-direction: column;
