@@ -6,7 +6,7 @@ import candles from './images/candles.png';
 const Projects = () => {
   return (
     <div className="container projects">
-      <h1 className="sectionTitle">Projects</h1>
+      <h1 className="sectionTitle">• Projects •</h1>
       <section className="projectRow">
         <div className="container block">
           <h1>Agenda</h1>
@@ -64,6 +64,13 @@ const Projects = () => {
           >
             Visit Agenda
           </button>
+          <p className="techStack">
+            <strong>
+              <i>Tech Stack:</i>
+            </strong>{' '}
+            Javascript, React, Redux, Material UI, Socket.io, Express,
+            Sequelize, PostgreSQL
+          </p>
         </figure>
       </section>
       <section className="projectRow">
@@ -120,6 +127,12 @@ const Projects = () => {
           >
             Visit On The Run
           </button>
+          <p className="techStack">
+            <strong>
+              <i>Tech Stack:</i>
+            </strong>{' '}
+            Javascript, React, Redux, React Google Charts, Express
+          </p>
         </figure>
       </section>
       <section className="projectRow">
@@ -173,6 +186,12 @@ const Projects = () => {
           >
             Visit Tranquility
           </button>
+          <p className="techStack">
+            <strong>
+              <i>Tech Stack:</i>
+            </strong>{' '}
+            Javascript, React, Redux, Bootstrap, Express, Sequelize, PostgreSQL
+          </p>
         </figure>
       </section>
     </div>
