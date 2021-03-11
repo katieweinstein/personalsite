@@ -64,7 +64,7 @@ const Projects = () => {
           >
             Visit Agenda
           </button>
-          <p className="techStack">
+          <p className="techStackList">
             <strong>
               <i>Tech Stack:</i>
             </strong>{' '}
@@ -127,7 +127,7 @@ const Projects = () => {
           >
             Visit On The Run
           </button>
-          <p className="techStack">
+          <p className="techStackList">
             <strong>
               <i>Tech Stack:</i>
             </strong>{' '}
@@ -186,7 +186,7 @@ const Projects = () => {
           >
             Visit Tranquility
           </button>
-          <p className="techStack">
+          <p className="techStackList">
             <strong>
               <i>Tech Stack:</i>
             </strong>{' '}
