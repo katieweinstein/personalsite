@@ -1,25 +1,34 @@
 import React from 'react';
 import computerwoman from './images/computerwoman.png';
+import headshot from './images/headshot.png';
 
 const Connect = () => {
   return (
     <div className="container connect">
       <div id="connectDetails">
         <section className="container block">
-          <h3 style={{ textAlign: 'center' }}>
-            Hey, let's connect! You're welcome to send me an email at{' '}
-            <a href="mailto:katie.weinstein3@gmail.com" className="link">
-              katie.weinstein3@gmail.com
-            </a>
-            .
-          </h3>
-          <img
-            src={computerwoman}
-            alt="A line drawing of a woman sitting at a laptop."
-          />
-        </section>
-        <section className="container block">
-          <h3>Connect with me on social media!</h3>
+          <div className="socialMediaContainer">
+            <h3 style={{ textAlign: 'right' }}>
+              Hey, let's connect! You're welcome to send me an email at{' '}
+              <a href="mailto:katie.weinstein3@gmail.com" className="link">
+                katie.weinstein3@gmail.com
+              </a>
+              .
+            </h3>
+            <img
+              src={computerwoman}
+              alt="A line drawing of a woman sitting at a laptop."
+              id="computerWoman"
+            />
+          </div>
+          <section className="lightBlock" id="socialMedia">
+            <img
+              src={headshot}
+              alt="A picture of Katie with a red background where she is smiling."
+              id="profilePicture"
+            />
+            <h3>Connect with me on social media!</h3>
+          </section>
         </section>
       </div>
       <section className="container block" id="spotifyBlock">

@@ -193,18 +193,18 @@ button:hover {
   justify-content: center;
   align-items: flex-start;
   width: 50%;
-  margin: 3%;
+  margin: 5%;
   padding: 20px;
   background-color: #ffe6e6;
+  color: #900c3f;
   box-shadow: 0px 3px 5px #c78b8b;
   border-radius: 10px;
 }
 
 .stackListContainer {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-align: right;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .noMargin {
@@ -239,9 +239,36 @@ button:hover {
 }
 
 #connectDetails {
+  display: flex;
   flex-direction: column;
-  max-height: 500px;
+  align-items: center;
   width: 60%
+}
+
+.socialMediaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 10px
+}
+
+#socialMedia {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 5%;
+  width: 90%
+}
+
+#socialMedia h3 {
+  padding: 10px
+}
+
+#computerWoman {
+  padding: 0 5%;
+  height: auto;
+  width: 30%
 }
 
 #spotifyBlock {
@@ -249,9 +276,9 @@ button:hover {
   width: 30%;
 }
 
-.connect img {
-  width: 30%;
-  height: auto
+#profilePicture {
+  height: auto;
+  width: 30%
 }
 
 #spotify {
@@ -296,6 +323,9 @@ button:hover {
   }
   .connect {
     flex-direction: column;
+  }
+  .block img {
+    width: 90%
   }
   #connectDetails {
     width: 100%;
