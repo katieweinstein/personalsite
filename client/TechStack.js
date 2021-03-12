@@ -13,7 +13,7 @@ const TechStack = () => {
             src={techstack}
             alt="An image with various logos in my tech stack."
           />
-          <div className="techStackList" id="stackListContainer">
+          <div className="techStackList stackListContainer">
             <h3 className="noMargin">Proficient:</h3>
             <p>
               Javascript, React, Redux, Bootstrap, Material UI, Node, Express,
