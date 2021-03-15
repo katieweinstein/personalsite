@@ -1,5 +1,8 @@
 import React from 'react';
 import anime from 'animejs/lib/anime.es.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 // Images
 import linkedin from './images/linkedin.png';
@@ -30,7 +33,13 @@ function shrink(type) {
 const Connect = () => {
   return (
     <div className="container connect">
-      <section className="container block" id="spotifyConnectContainer">
+      <section
+        className="container block"
+        id="spotifyConnectContainer"
+        data-aos="flip-down"
+        data-aos-delay="500"
+        data-aos-duration="1500"
+      >
         <div className="socialMediaContainer">
           <h3>
             Hey, let's connect! You're welcome to send me an email at{' '}
