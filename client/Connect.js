@@ -11,7 +11,7 @@ import email from './images/email.png';
 import computerwoman from './images/computerwoman.png';
 
 function expand(type) {
-  type = '.' + type;
+  type = '#' + type;
   anime({
     targets: type,
     scale: 1.25,
@@ -21,7 +21,7 @@ function expand(type) {
 }
 
 function shrink(type) {
-  type = '.' + type;
+  type = '#' + type;
   anime({
     targets: type,
     scale: 1,
@@ -35,7 +35,6 @@ const Connect = () => {
     <div className="container connect">
       <section
         className="container block"
-        id="spotifyConnectContainer"
         data-aos="flip-down"
         data-aos-delay="500"
         data-aos-duration="1500"
@@ -60,7 +59,7 @@ const Connect = () => {
             <a href="https://www.linkedin.com/in/katie-weinstein/">
               <img
                 src={linkedin}
-                className="linkedin"
+                id="linkedin"
                 onMouseOver={() => expand('linkedin')}
                 onMouseOut={() => shrink('linkedin')}
                 alt="LinkedIn logo"
@@ -69,7 +68,7 @@ const Connect = () => {
             <a href="https://github.com/katieweinstein">
               <img
                 src={github}
-                className="github"
+                id="github"
                 onMouseOver={() => expand('github')}
                 onMouseOut={() => shrink('github')}
                 alt="GitHub logo"
@@ -78,7 +77,7 @@ const Connect = () => {
             <a href="mailto:katie.weinstein3@gmail.com">
               <img
                 src={email}
-                className="email"
+                id="email"
                 onMouseOver={() => expand('email')}
                 onMouseOut={() => shrink('email')}
                 alt="email logo"

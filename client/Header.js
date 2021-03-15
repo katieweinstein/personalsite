@@ -7,7 +7,7 @@ import github from './images/github.png';
 import email from './images/email.png';
 
 function expand(type) {
-  type = '.' + type;
+  type = '#' + type;
   anime({
     targets: type,
     scale: 1.25,
@@ -17,7 +17,7 @@ function expand(type) {
 }
 
 function shrink(type) {
-  type = '.' + type;
+  type = '#' + type;
   anime({
     targets: type,
     scale: 1,
@@ -36,7 +36,7 @@ class Header extends React.Component {
           <a href="https://www.linkedin.com/in/katie-weinstein/">
             <img
               src={linkedin}
-              className="linkedin"
+              id="linkedin"
               onMouseOver={() => expand('linkedin')}
               onMouseOut={() => shrink('linkedin')}
               alt="LinkedIn logo"
@@ -45,7 +45,7 @@ class Header extends React.Component {
           <a href="https://github.com/katieweinstein">
             <img
               src={github}
-              className="github"
+              id="github"
               onMouseOver={() => expand('github')}
               onMouseOut={() => shrink('github')}
               alt="GitHub logo"
@@ -54,7 +54,7 @@ class Header extends React.Component {
           <a href="mailto:katie.weinstein3@gmail.com">
             <img
               src={email}
-              className="email"
+              id="email"
               onMouseOver={() => expand('email')}
               onMouseOut={() => shrink('email')}
               alt="email logo"
