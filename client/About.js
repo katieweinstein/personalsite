@@ -1,4 +1,7 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 // Images
 import katiepic from './images/katiepicblue.jpg';
@@ -11,8 +14,14 @@ const About = () => {
         src={katiepic}
         alt="A digital drawing of me, Katie, smiling in a striped green shirt with my hair down."
         id="profilePic"
+        data-aos="fade-right"
+        data-aos-duration="1000"
       />
-      <section className="container block">
+      <section
+        className="container block"
+        data-aos="flip-up"
+        data-aos-duration="2000"
+      >
         <img
           src={skyline}
           alt="A line drawing of a city skyline in white."

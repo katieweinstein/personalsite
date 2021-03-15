@@ -2,13 +2,21 @@ import React from 'react';
 import writing from './images/writing.png';
 import sneaker from './images/sneaker.png';
 import candles from './images/candles.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Projects = () => {
   return (
     <div className="container projects">
       <h1 className="sectionTitle">• Projects •</h1>
       <section className="projectRow">
-        <div className="container block">
+        <div
+          className="container block"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
           <h1>Agenda</h1>
           <img
             src={writing}
@@ -51,7 +59,11 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <figure>
+        <figure
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
           <a href="http://your-agenda.herokuapp.com" className="projectImage">
             <img
               src="https://media.giphy.com/media/esFMsqzGaZ4mvWm4NB/giphy.gif"
@@ -74,7 +86,12 @@ const Projects = () => {
         </figure>
       </section>
       <section className="projectRow">
-        <div className="container block">
+        <div
+          className="container block"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
           <h1>On The Run</h1>
           <img
             src={sneaker}
@@ -114,7 +131,11 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <figure>
+        <figure
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
           <a href="http://ontherun.herokuapp.com" className="projectImage">
             <img
               src="https://media.giphy.com/media/dkBz9l6vNUPq5JC6bD/giphy.gif"
@@ -136,7 +157,12 @@ const Projects = () => {
         </figure>
       </section>
       <section className="projectRow">
-        <div className="container block">
+        <div
+          className="container block"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
           <h1>Tranquility</h1>
           <img
             src={candles}
@@ -168,7 +194,11 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <figure>
+        <figure
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
           <a
             href="http://tranquility-candles.herokuapp.com"
             className="projectImage"

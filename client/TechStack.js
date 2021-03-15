@@ -1,14 +1,20 @@
 import React from 'react';
 import techstack from './images/techstack.png';
-
-const techStackArray = {};
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const TechStack = () => {
   return (
     <div className="container techStack">
       <h1 className="sectionTitle">• Tech Stack •</h1>
       <section className="container">
-        <div className="lightBlock">
+        <div
+          className="lightBlock"
+          data-aos="flip-up"
+          data-aos-delay="500"
+          data-aos-duration="1500"
+        >
           <img
             src={techstack}
             alt="An image with various logos in my tech stack."

@@ -76,13 +76,13 @@ button:hover {
   font-size: 3em;
 }
 
-#logoContainer {
+.logoContainer {
   display: flex;
   justify-content: space-between;
   width: 100px
 }
 
-#logoContainer img {
+.linkedin, .github, .email {
   width: 20px;
   height: 20px
 }
@@ -236,44 +236,35 @@ button:hover {
 
 .connect .block {
   box-shadow: 0px 3px 5px #c78b8b;
+  flex-direction: row;
+  padding: 10px;
 }
 
-#connectDetails {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 60%
+#spotifyConnectContainer {
+  height: 400px;
+  width: 50%;
 }
 
 .socialMediaContainer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: stretch;
   align-items: center;
   width: 90%;
   padding: 10px
 }
 
-#socialMedia {
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin: 0 5%;
-  width: 90%
-}
-
-#socialMedia h3 {
-  padding: 10px
+.socialMediaContainer h3 {
+  width: 100%;
+  padding: 0px;
+  text-align: justify;
+  margin: 0
 }
 
 #computerWoman {
-  padding: 0 5%;
   height: auto;
-  width: 30%
-}
-
-#spotifyBlock {
-  height: 500px;
-  width: 30%;
+  width: 50%;
+  margin-bottom: 20px
 }
 
 #profilePicture {
@@ -282,10 +273,10 @@ button:hover {
 }
 
 #spotify {
-  display: flex;
-  margin-bottom: 20px;
-  height: 100%;
-  border: 3px solid white;
+  height: 90%;
+  width: 75%;
+  outline: 3px solid white;
+  margin: 10px
 }
 
 @media only screen and (max-width: 1160px) {
