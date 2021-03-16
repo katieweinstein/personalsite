@@ -59,11 +59,7 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <figure
-          data-aos="fade-left"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-        >
+        <figure data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
           <a href="http://your-agenda.herokuapp.com" className="projectImage">
             <img
               src="https://media.giphy.com/media/esFMsqzGaZ4mvWm4NB/giphy.gif"
@@ -131,11 +127,7 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <figure
-          data-aos="fade-left"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-        >
+        <figure data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
           <a href="http://ontherun.herokuapp.com" className="projectImage">
             <img
               src="https://media.giphy.com/media/dkBz9l6vNUPq5JC6bD/giphy.gif"
@@ -194,11 +186,7 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <figure
-          data-aos="fade-left"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-        >
+        <figure data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
           <a
             href="http://tranquility-candles.herokuapp.com"
             className="projectImage"
