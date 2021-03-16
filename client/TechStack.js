@@ -11,7 +11,7 @@ const TechStack = () => {
       <section className="container">
         <div
           className="lightBlock"
-          data-aos="flip-up"
+          data-aos="flip-left"
           data-aos-delay="500"
           data-aos-duration="1500"
         >

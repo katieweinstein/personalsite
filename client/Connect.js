@@ -35,7 +35,7 @@ const Connect = () => {
     <div className="container connect">
       <section
         className="container block"
-        data-aos="flip-down"
+        data-aos="flip-right"
         data-aos-delay="500"
         data-aos-duration="1500"
       >

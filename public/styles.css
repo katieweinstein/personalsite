@@ -2,7 +2,7 @@ body {
   background-color: #ffe6e6;
   font-family: 'Nunito', sans-serif;
   color: white;
-  margin: 0px 0px 0px 0px
+  margin: 0
 }
 
 h1 {
@@ -278,7 +278,8 @@ button:hover {
 /* FOOTER */
 .footer {
   background-color: #900c3f;
-  outline: 3px solid white;
+  border-top: 3px solid white;
+  width: 100vw
 }
 
 @media only screen and (max-width: 1160px) {
@@ -291,6 +292,9 @@ button:hover {
 
 /* For small screens and phone screens */
 @media only screen and (max-width: 800px) {
+  body {
+    margin: 0
+  }
   .intro {
     flex-direction: column;
   }
