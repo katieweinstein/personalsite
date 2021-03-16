@@ -30,7 +30,7 @@ const Projects = () => {
             </i>
           </h3>
           <p>
-            Developed over a 2-week sprint in a team of four, this project is
+            Developed over a 2-week sprint in a team of four, this project is a
             fully functional project management board app for groups. We
             included features like drag and drop, real-time project board
             updates, and optional site-wide color themes.
