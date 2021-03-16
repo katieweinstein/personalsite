@@ -144,7 +144,7 @@ const Projects = () => {
             <strong>
               <i>Tech Stack:</i>
             </strong>{' '}
-            Javascript, React, Redux, React Google Charts, Express
+            Javascript, React, Redux, React Google Charts
           </p>
         </figure>
       </section>
