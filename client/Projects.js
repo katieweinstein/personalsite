@@ -130,7 +130,7 @@ const Projects = () => {
         <figure data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
           <a href="http://ontherun.herokuapp.com" className="projectImage">
             <img
-              src="https://media.giphy.com/media/dkBz9l6vNUPq5JC6bD/giphy.gif"
+              src="https://media.giphy.com/media/alVGPVWnCbmdIbMHoG/source.mov"
               alt="A gif of my On The Run site in action."
             />
           </a>
