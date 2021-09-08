@@ -32,7 +32,7 @@ class Header extends React.Component {
       <div className="container header">
         <h1>Katie Weinstein</h1>
         <h3 style={{ marginTop: '0px' }}>SOFTWARE ENGINEER</h3>
-        <div class="logoContainer">
+        <div className="logoContainer">
           <a href="https://www.linkedin.com/in/katie-weinstein/">
             <img
               src={linkedin}

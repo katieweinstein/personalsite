@@ -55,7 +55,7 @@ const Connect = () => {
             alt="A line drawing of a woman sitting at a laptop."
             id="computerWoman"
           />
-          <div class="logoContainer">
+          <div className="logoContainer">
             <a href="https://www.linkedin.com/in/katie-weinstein/">
               <img
                 src={linkedin}
