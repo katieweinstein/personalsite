@@ -18,7 +18,9 @@ const ProjectBlock = (props) => {
         <h3>
           <i>{project.tagline}</i>
         </h3>
-        <p>{project.description}</p>
+        {project.description.map((section) => (
+          <p>{section}</p>
+        ))}
         <div className="buttons">
           <button
             type="button"
