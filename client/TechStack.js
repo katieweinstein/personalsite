@@ -22,11 +22,12 @@ const TechStack = () => {
           <div className="techStackList stackListContainer">
             <h3 className="noMargin">Proficient:</h3>
             <p>
-              Javascript, React, Redux, Bootstrap, Material UI, Node, Express,
-              Sequelize, PostgreSQL, SQL, Github, Git, HTML, CSS
+              Typescript, Javascript, React, Redux, Jest, React Testing Library,
+              Webpack, Mocha, Chai, Enzyme, Bootstrap, Material UI, Express,
+              PostgreSQL, Sequelize, Node.js, SQL, Git, HTML, CSS, Storybook
             </p>
             <h3 className="noMargin">Knowledgeable:</h3>
-            <p>Webpack, Python, Flask, SQLite, Heroku, C</p>
+            <p>SQLite, Python, Flask, C, PHP</p>
             <h3>
               Want more info? Take a look at my{' '}
               <a href="resume.pdf" className="link">

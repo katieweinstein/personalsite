@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 AOS.init();
 
 // Images
-import katiepic from './images/katiepicblue.jpg';
+import katiepic from './images/katiepic.jpeg';
 import skyline from './images/skyline.png';
 
 const About = () => {
@@ -33,9 +33,7 @@ const About = () => {
         </h2>
         <p style={{ fontSize: 'large' }}>
           I'm a singer-actress turned web developer with a passion for
-          problem-solving. In February, I graduated from the Grace Hopper
-          Program at Fullstack Academy, and I'm currently in search of a role as
-          a full-time developer in NYC. <br />
+          problem-solving, currently working as a software engineer. <br />
           <br />
           My experience in live theatre has given me the ability to think on my
           feet, communicate with my team (onstage and backstage!), and express

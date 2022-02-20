@@ -87,7 +87,7 @@ const Connect = () => {
         </div>
         <div id="spotify">
           <iframe
-            src="https://open.spotify.com/embed/playlist/1dLvCe19oqDdr4a2SBCR38"
+            src="https://open.spotify.com/embed/playlist/1dLvCe19oqDdr4a2SBCR38?utm_source=generator"
             width="100%"
             height="100%"
             frameBorder="0"
@@ -95,11 +95,6 @@ const Connect = () => {
             allow="encrypted-media"
           />
         </div>
-        {/* <img
-              src={headshot}
-              alt="A picture of Katie with a red background where she is smiling."
-              id="profilePicture"
-            /> */}
       </section>
     </div>
   );
