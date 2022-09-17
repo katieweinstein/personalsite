@@ -1,31 +1,10 @@
 import writing from './images/writing.png';
 import sneaker from './images/sneaker.png';
-import candles from './images/candles.png';
+import jeopardy from './images/jeopardy.png';
 
 const projectData = [
   {
     id: 1,
-    title: 'Agenda',
-    image: writing,
-    alt: 'A line drawing of someone writing on a piece of paper in white.',
-    imageStyle: { width: '50%' },
-    tagline:
-      'A minimalistic project board app that does enough without doing too much.',
-    description: [
-      'Developed over a 2-week sprint in a team of four, this project is a fully functional project management board app for groups. We included features like drag and drop, real-time project board updates, and optional site-wide color themes.',
-      'I implemented the drag and drop feature, contributed to a large portion of the layout and styling, and created the task forms.',
-    ],
-    githubLink: 'https://github.com/Super-Sweet-Starbursts/agenda',
-    videoLink:
-      'https://www.youtube.com/watch?v=9d15DFFVORs&list=PLx0iOsdUOUmnwv1vrUcoOhP736-omYGMN&index=9',
-    websiteLink: 'http://your-agenda.herokuapp.com',
-    gifLink: 'https://media.giphy.com/media/esFMsqzGaZ4mvWm4NB/giphy.gif',
-    gifAlt: 'A gif of tasks being dragged and dropped on my Agenda website.',
-    techStack:
-      'Javascript, React, Redux, Material UI, Socket.io, Express, Sequelize, PostgreSQL',
-  },
-  {
-    id: 2,
     title: 'On The Run',
     image: sneaker,
     imageAlt: 'A line drawing of a sneaker in white.',
@@ -39,27 +18,27 @@ const projectData = [
     downloadLink: 'KatieRunning.csv',
     videoLink: 'https://youtu.be/yHTqPAq9uYo',
     websiteLink: 'http://ontherun.herokuapp.com',
-    gifLink: 'https://media.giphy.com/media/alVGPVWnCbmdIbMHoG/giphy.gif',
-    gifAlt: 'A gif of my On The Run site in action.',
+    imgLink: 'https://media.giphy.com/media/alVGPVWnCbmdIbMHoG/giphy.gif',
+    imgAlt: 'A gif of my On The Run site in action.',
     techStack: 'Javascript, React, Redux, React Google Charts',
   },
   {
-    id: 3,
-    title: 'Tranquility',
-    image: candles,
-    alt: 'A line drawing of two lit candles in white.',
-    imageStyle: { width: '30%' },
-    tagline: 'A mock e-commerce site to browse a selection of candles.',
+    id: 2,
+    title: 'Jeopardy Scorekeeper',
+    image: writing,
+    imageAlt:
+      'A line drawing of two hands on a piece of paper, one holding a pencil.',
+    imageStyle: { width: '50%' },
+    tagline:
+      'Your new favorite scorekeeping app for at-home Jeopardy: sleek, simple, and fun.',
     description: [
-      'This project was developed with two other teammates in less than a week. We focused on creating carts for both logged-in and guest users, and practiced with large amounts of dummy data to simulate a real-world e-commerce site with hundreds of products.',
-      'I handled front-end component organization and styling, contributed to the structure of the database, and created the login and signup forms.',
+      "Jeopardy is my family's go-to evening game whenever we spend time together. Most other Jeopardy scorekeeping apps are overcomplicated or difficult to use, so I designed my own. We now use it every time we play Jeopardy! Although the app is not out in the app store, you can check out my code below.",
+      'This was my first time using Expo with React Native - it was a fun challenge and I enjoyed stepping out of my comfort zone!',
     ],
-    githubLink: 'https://github.com/Mighty-mighty-mangoes/Tranquility',
-    websiteLink: 'http://tranquility-candles.herokuapp.com',
-    gifLink: 'https://media.giphy.com/media/lVnhtZ5fxDkewKdG4l/giphy.gif',
-    gifAlt: 'A gif of a candle being added to a cart on Tranquility.',
-    techStack:
-      'Javascript, React, Redux, Bootstrap, Express, Sequelize, PostgreSQL',
+    githubLink: 'https://github.com/katieweinstein/JeopardyScorekeeper',
+    imgLink: jeopardy,
+    imgAlt: 'A collage of images from my Jeopardy app',
+    techStack: 'React Native, SQLite, Expo',
   },
 ];
 

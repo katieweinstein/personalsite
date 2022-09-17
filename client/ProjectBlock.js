@@ -44,15 +44,20 @@ const ProjectBlock = (props) => {
         </div>
       </div>
       <figure data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
-        <a href={project.websiteLink} className="projectImage">
-          <img src={project.gifLink} alt={project.gifAlt} />
-        </a>
-        <button
-          type="button"
-          onClick={() => (location.href = project.websiteLink)}
+        <a
+          href={project.websiteLink && project.websiteLink}
+          className="projectImage"
         >
-          Visit {project.title}
-        </button>
+          <img src={project.imgLink} alt={project.imgAlt} />
+        </a>
+        {project.websiteLink && (
+          <button
+            type="button"
+            onClick={() => (location.href = project.websiteLink)}
+          >
+            Visit {project.title}
+          </button>
+        )}
         <p className="techStackList">
           <strong>
             <i>Tech Stack:</i>
