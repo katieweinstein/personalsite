@@ -17,7 +17,7 @@ const projectData = [
     githubLink: 'https://github.com/katieweinstein/ontherun',
     downloadLink: 'KatieRunning.csv',
     videoLink: 'https://youtu.be/yHTqPAq9uYo',
-    websiteLink: 'http://ontherun.herokuapp.com',
+    websiteLink: 'https://imaginative-monstera-c30da0.netlify.app',
     imgLink: 'https://media.giphy.com/media/alVGPVWnCbmdIbMHoG/giphy.gif',
     imgAlt: 'A gif of my On The Run site in action.',
     techStack: 'Javascript, React, Redux, React Google Charts',
